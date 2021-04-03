@@ -15,7 +15,8 @@ render() {
                             indice={index}
                             apagarNota={this.props.apagarNota}
                             titulo={nota.titulo}
-                            texto = {nota.texto}/>
+                            texto = {nota.texto}
+                            categoria ={nota.categoria}/>
                             </li>);
                     }
                 )
