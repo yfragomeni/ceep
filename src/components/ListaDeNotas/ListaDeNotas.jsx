@@ -11,7 +11,10 @@ render() {
                         return(<li 
                         key={index}
                         className="lista-notas_item">
-                            <CardNota titulo={nota.titulo}
+                            <CardNota 
+                            indice={index}
+                            apagarNota={this.props.apagarNota}
+                            titulo={nota.titulo}
                             texto = {nota.texto}/>
                             </li>);
                     }
